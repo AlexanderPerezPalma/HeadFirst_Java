@@ -1,0 +1,31 @@
+package chapter4;
+
+public class GoodDogTestDrive {
+
+	public static void main(String[] args) {
+		GoodDog one = new GoodDog();
+		one.setSize(70);
+		GoodDog two = new GoodDog();
+		two.setSize(8);
+		System.out.println("Dog one: "+ one.getSize());
+		System.out.println("Dog one: "+ two.getSize());
+		one.bark();
+		two.bark();
+	}
+
+}
+ /*
+  
+  Example of Array:
+  
+  Dog [] pets;
+  pets = new Dog [7];
+  
+  pets[0] = new Dog();
+  pets[1] = new Dog();
+  
+  pets[0].setSize(30);
+  int x = pets[0].getSize();
+  pets[1]setSize(8);
+  
+*/
